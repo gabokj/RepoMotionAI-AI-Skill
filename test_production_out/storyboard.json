@@ -1,0 +1,147 @@
+{
+  "title": "Storyboard - Roteiro Comercial - motion-frames",
+  "total_frames": 900,
+  "fps": 60,
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Hook",
+      "start_frame": 0,
+      "end_frame": 288,
+      "duration_frames": 288,
+      "screen_text": "CHEGA DE VÍDEOS GENÉRICOS",
+      "spoken_text": "Chega de vídeos genéricos para apresentar seu projeto.",
+      "visual": "Abertura cinematográfica com profundidade e tipografia de alto impacto",
+      "camera": "slow_push_in",
+      "transition_out": "morph"
+    },
+    {
+      "id": 2,
+      "name": "Solução e Demonstração",
+      "start_frame": 288,
+      "end_frame": 684,
+      "duration_frames": 396,
+      "screen_text": "CRIAR ANIMAÇÃO POR CÓDIGO",
+      "spoken_text": "Com o motion-frames, você cria criar animação por código e 4 estilos.",
+      "visual": "Demonstração interativa de interface fluida com dados reais e motion cards 3D",
+      "camera": "orbit_tilt",
+      "transition_out": "zoom_through"
+    },
+    {
+      "id": 3,
+      "name": "CTA",
+      "start_frame": 684,
+      "end_frame": 900,
+      "duration_frames": 216,
+      "screen_text": "EXPERIMENTE AGORA NO GITHUB",
+      "spoken_text": "Experimente agora no GitHub.",
+      "visual": "Botão pílula elegante de fechamento com logo e assinatura",
+      "camera": "slow_drift",
+      "transition_out": "fade_out"
+    }
+  ],
+  "events": [
+    {
+      "frame": 15,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_1"
+    },
+    {
+      "frame": 75,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_75"
+    },
+    {
+      "frame": 135,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_135"
+    },
+    {
+      "frame": 195,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_195"
+    },
+    {
+      "frame": 255,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_255"
+    },
+    {
+      "frame": 288,
+      "type": "whoosh",
+      "volume": 0.08,
+      "label": "transicao_cena_2"
+    },
+    {
+      "frame": 303,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_2"
+    },
+    {
+      "frame": 363,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_363"
+    },
+    {
+      "frame": 423,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_423"
+    },
+    {
+      "frame": 483,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_483"
+    },
+    {
+      "frame": 543,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_543"
+    },
+    {
+      "frame": 603,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_603"
+    },
+    {
+      "frame": 663,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_663"
+    },
+    {
+      "frame": 699,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_3"
+    },
+    {
+      "frame": 759,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_759"
+    },
+    {
+      "frame": 819,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_819"
+    },
+    {
+      "frame": 879,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_879"
+    }
+  ]
+}

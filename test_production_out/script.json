@@ -1,0 +1,41 @@
+{
+  "title": "Roteiro Comercial - motion-frames",
+  "content_type": "ad",
+  "duration_s": 15.0,
+  "words": 25,
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Hook",
+      "target_duration_s": 4.8,
+      "spoken_text": "Chega de vídeos genéricos para apresentar seu projeto.",
+      "screen_text": "CHEGA DE VÍDEOS GENÉRICOS",
+      "visual_description": "Abertura cinematográfica com profundidade e tipografia de alto impacto",
+      "camera_movement": "slow_push_in",
+      "transition_out": "morph",
+      "estimated_speech_s": 3.91
+    },
+    {
+      "id": 2,
+      "name": "Solução e Demonstração",
+      "target_duration_s": 6.6,
+      "spoken_text": "Com o motion-frames, você cria criar animação por código e 4 estilos.",
+      "screen_text": "CRIAR ANIMAÇÃO POR CÓDIGO",
+      "visual_description": "Demonstração interativa de interface fluida com dados reais e motion cards 3D",
+      "camera_movement": "orbit_tilt",
+      "transition_out": "zoom_through",
+      "estimated_speech_s": 6.57
+    },
+    {
+      "id": 3,
+      "name": "CTA",
+      "target_duration_s": 3.6,
+      "spoken_text": "Experimente agora no GitHub.",
+      "screen_text": "EXPERIMENTE AGORA NO GITHUB",
+      "visual_description": "Botão pílula elegante de fechamento com logo e assinatura",
+      "camera_movement": "slow_drift",
+      "transition_out": "fade_out",
+      "estimated_speech_s": 2.19
+    }
+  ]
+}

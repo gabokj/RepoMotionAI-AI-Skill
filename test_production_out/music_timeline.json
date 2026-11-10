@@ -1,0 +1,140 @@
+{
+  "duration": 15.0,
+  "fps": 60,
+  "seed": 7,
+  "bpm": 104,
+  "key": "D",
+  "mode": "major",
+  "style": "modern_advertising",
+  "ending": "resolve",
+  "music_level": 0.9,
+  "sfx_level": 0.7,
+  "loudness": -16.0,
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 138,
+      "section": "intro",
+      "energy": 0.2,
+      "narration": true
+    },
+    {
+      "start_frame": 138,
+      "end_frame": 415,
+      "section": "verse",
+      "energy": 0.37,
+      "narration": true
+    },
+    {
+      "start_frame": 415,
+      "end_frame": 900,
+      "section": "main",
+      "energy": 0.67,
+      "narration": true
+    }
+  ],
+  "events": [
+    {
+      "frame": 15,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_1"
+    },
+    {
+      "frame": 75,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_75"
+    },
+    {
+      "frame": 135,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_135"
+    },
+    {
+      "frame": 195,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_195"
+    },
+    {
+      "frame": 255,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_1_255"
+    },
+    {
+      "frame": 288,
+      "type": "whoosh",
+      "volume": 0.08,
+      "label": "transicao_cena_2"
+    },
+    {
+      "frame": 303,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_2"
+    },
+    {
+      "frame": 363,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_363"
+    },
+    {
+      "frame": 423,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_423"
+    },
+    {
+      "frame": 483,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_483"
+    },
+    {
+      "frame": 543,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_543"
+    },
+    {
+      "frame": 603,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_603"
+    },
+    {
+      "frame": 663,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_2_663"
+    },
+    {
+      "frame": 699,
+      "type": "pop",
+      "volume": 0.14,
+      "label": "texto_pop_cena_3"
+    },
+    {
+      "frame": 759,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_759"
+    },
+    {
+      "frame": 819,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_819"
+    },
+    {
+      "frame": 879,
+      "type": "shimmer",
+      "volume": 0.05,
+      "label": "ritmo_cena_3_879"
+    }
+  ]
+}

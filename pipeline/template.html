@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1920px; overflow:hidden; background:#0e0e10; }
+  body { font-family:"Inter","Helvetica Neue",Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+  #stage { position:absolute; inset:0; overflow:hidden; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script>
+"use strict";
+/* ============================================================
+   ANIMAÇÃO = FUNÇÃO PURA DO NÚMERO DO QUADRO
+   - Nada de relógio (Date, performance.now, rAF para estado)
+   - Nada de aleatório sem semente fixa derivada do quadro
+   - O renderizador chama renderFrame(n) e fotografa
+   ============================================================ */
+const FPS = 60, W = 1080, H = 1920;
+const T = n => n / FPS;                       // quadro -> segundos
+const clamp = (x, a=0, b=1) => Math.min(b, Math.max(a, x));
+const lerp = (a, b, u) => a + (b - a) * u;
+
+/* --- easings (determinísticos) --- */
+const easeOutCubic   = u => 1 - Math.pow(1 - clamp(u), 3);
+const easeInOutCubic = u => { u = clamp(u); return u < .5 ? 4*u*u*u : 1 - Math.pow(-2*u + 2, 3)/2; };
+const easeOutBack    = (u, s=1.70158) => { u = clamp(u); return 1 + (s+1)*Math.pow(u-1,3) + s*Math.pow(u-1,2); };
+/* spring analítico (subamortecido): parte de 0, assenta em 1 — puro em t */
+const spring = (t, freq=6.0, damp=0.62) => {
+  if (t <= 0) return 0;
+  const w = freq * Math.PI * 2, z = damp;
+  const wd = w * Math.sqrt(1 - z*z);
+  return 1 - Math.exp(-z*w*t) * (Math.cos(wd*t) + (z*w/wd) * Math.sin(wd*t));
+};
+/* janela de tempo: progresso 0..1 entre os quadros a e b */
+const seg = (n, a, b) => clamp((n - a) / (b - a));
+/* hash determinístico p/ "aleatório" reprodutível */
+const hash = i => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+
+/* ============================================================
+   CENA — reescrever por projeto. Deve reconstruir o DOM do zero
+   a partir de n (ou atualizar estilos a partir de valores puros).
+   ============================================================ */
+const stage = document.getElementById('stage');
+function renderFrame(n) {
+  const t = T(n);
+  stage.innerHTML = `
+    <div style="position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 30%, #26262b 0%, #0e0e10 70%)"></div>
+    <div style="position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);white-space:nowrap;width:max-content;
+                font-size:150px;font-weight:800;letter-spacing:.02em;color:#f2f0ea">
+      ${"MOTION".split("").map((ch, i) => {
+        const u = spring(t - 0.15 - i * 0.06, 5.2, 0.55);
+        return `<span style="display:inline-block;transform:translateY(${(1-u)*120}px) scale(${0.6+0.4*u});opacity:${clamp(u*1.6)}">${ch}</span>`;
+      }).join("")}
+    </div>`;
+}
+window.renderFrame = renderFrame;
+renderFrame(0);
+</script>
+</body>
+</html>
