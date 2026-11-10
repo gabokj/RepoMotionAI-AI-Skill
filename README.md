@@ -1,3 +1,5 @@
+
+
 ![Motion Frames](assets/repomotion-ai-cover.png)
 
 # RepoMotion AI — Motion Frames 
@@ -21,49 +23,7 @@ Basta carregar esta skill no chat com o seu assistente ou agente de IA favorito 
 
 ## 🎥 Vídeos Demonstrativos
 
-
----
-
-## 🌟 O que é o RepoMotion
-
-O RepoMotion AI opera como um **estúdio audiovisual autônomo completo**:
-
-1. **Inteligência de Roteirização Baseada em Evidências do Código**:
-   - Analisa arquivos reais (`README.md`, `package.json`, stack e documentações anexadas).
-   - Elimina frases genéricas e clichês vazios (*"você já imaginou..."*, *"o futuro chegou..."*).
-   - Estrutura narrativa comercial validada: **Hook → Contexto → Demonstração Real → Benefício → CTA**.
-   - Orçamento milimétrico de palavras por segundo e tempo de leitura confortável.
-
-2. **Direção Musical Original (Livre de Direitos Autorais / Copyright-Free)**:
-   - Síntese de composições próprias procedurais em WAV 48 kHz estéreo sem samples de terceiros.
-   - 5 estilos refinados adequados para publis e publicidade:
-     - **Modern Advertising**: Elegante, piano elétrico suave, pads quentes e pulso pop leve.
-     - **Soft Electronic**: Apps e tecnologia, sintetizadores aéreos, arpejos delicados e sub-bass controlado.
-     - **Minimalist Lifestyle**: Publis e bem-estar, piano de feltro, violão acústico e percussão sutil.
-     - **Ambient Cinematic**: Vídeos institucionais e branding premium, texturas imersivas e evolução emotiva.
-     - **Light Funk / Groove**: Anúncios dinâmicos, linhas de baixo suaves e sincopadas com balanço comercial.
-   - Arranjo com seções harmônicas estruturadas (*intro*, *verse*, *build*, *main*, *breakdown*, *outro*) e final resolvido na tônica.
-   - Gerador de prompts musicais detalhados para APIs de áudio generativo.
-
-3. **Sistema Inteligente de Narração & Voz Natural**:
-   - Dicionário fonético com pronúncia calibrada para termos técnicos em português (`AI`, `API`, `GitHub`, `Node.js`, `Docker`, `SQL`, `SaaS`).
-   - Geração automática de SSML neural com controle de velocidade, pausas respiratórias e entonação.
-   - 5 perfis de voz profissionais:
-     - **Comercial Premium**: Seguro, suave, elegante e confiante.
-     - **Conversacional**: Próximo, espontâneo e amigável (estilo criador de conteúdo / publis).
-     - **Tecnológico**: Moderno, claro e objetivo para software e plataformas digitais.
-     - **Lifestyle**: Descontraído, acolhedor e natural.
-     - **Narrativo**: Envolvente com variações de ritmo para vídeos explicativos.
-   - Suporte a provedores neurais (OpenAI Voice, ElevenLabs) e sintetizador local offline integrado para operação sem internet.
-
-4. **Sincronização e Mixagem Audiovisual Padrão Broadcast**:
-   - **Ducking Automático**: A música atenua suavemente durante a fala (-9 dB com curvas de ataque e release antecipadas).
-   - **Bolsão de Frequência (Voice Pocket EQ)**: Corte sutil na música em 2.5 kHz para destacar a voz sem precisar abaixar drasticamente a trilha.
-   - **Masterização EBU R128 / ITU-R BS.1770-4**: Normalização precisa a **-14 LUFS** e limitador com lookahead para **True Peak em -1.0 dBTP** (volume padrão de redes sociais, sem distorção).
-   - Adaptação temporal contínua (`music_fit`) para músicas externas sem cortes secos ou loops repetitivos.
-
-5. **Auditoria e Relatório Automático de Qualidade (QA)**:
-   - Emissão de relatório detalhado (`QA_REPORT.md`) avaliando clipping, true peak, relação voz/música, densidade de micro-eventos e legibilidade visual.
+https://github.com/user-attachments/assets/8c71bcda-fe0b-488b-8936-d472b2f4cf86
 
 ---
 
