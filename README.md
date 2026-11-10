@@ -1,6 +1,6 @@
 ![Motion Frames](assets/repomotion-ai-cover.png)
 
-# RepoMotion AI — Motion Frames (Evolução Audiovisual Completa v2.0)
+# RepoMotion AI — Motion Frames 
 
 **Skill & Ferramenta de IA para Produção Audiovisual Comercial e Motion Design Profissional** — Crie anúncios, publis, promos de produto, vídeos explicativos e demonstrações cinematográficas para TikTok, Instagram Reels, Shorts, LinkedIn e YouTube.
 
@@ -21,19 +21,12 @@ Basta carregar esta skill no chat com o seu assistente ou agente de IA favorito 
 
 ## 🎥 Vídeos Demonstrativos
 
-<div align="center">
-
-<video src="videos/repomotion-v2.mp4" controls width="100%" style="max-width: 680px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);">
-  Seu navegador não suporta a tag de vídeo. Você pode assistir diretamente abrindo o arquivo na pasta <code>videos/</code>.
-</video>
-
-</div>
 
 ---
 
-## 🌟 O que há de novo na Versão 2.0
+## 🌟 O que é o RepoMotion
 
-O RepoMotion AI agora opera como um **estúdio audiovisual autônomo completo**:
+O RepoMotion AI opera como um **estúdio audiovisual autônomo completo**:
 
 1. **Inteligência de Roteirização Baseada em Evidências do Código**:
    - Analisa arquivos reais (`README.md`, `package.json`, stack e documentações anexadas).
